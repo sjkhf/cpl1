@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>留言板</title>
+  <style>
+    body,
+    html {
+      overflow: hidden;
+      font-family: 宋体，sans-serif;
+      text-align: center;
+    }
+    body {
+      margin: 20px auto;
+      padding: 0;
+      width: 650px;
+      height: 500px;
+      border: 1px solid #ddd;
+      box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+    }
+    #postMessageForm input:nth-child(1),
+    #postMessageForm input:nth-child(2) {
+      background: none;
+      padding: 10px 20px;
+    }
+
+    #postMessageForm input:nth-child(3) {
+      background: deepskyblue;
+      border: 1px solid deepskyblue;
+      padding: 10px 20px;
+    }
+    #postMessageForm input:nth-child(4) {
+      background: deepskyblue;
+      border: 1px solid deepskyblue;
+      padding: 10px 20px;
+    }
+      #postMessageForm a{
+          margin-top: 100px;
+      }
+      a{
+          text-decoration: underline;
+          font-size: 25px;
+      }
+      a:hover{
+          color: skyblue;
+      }
+      .return{
+          margin-top: 200px;
+      }
+  </style>
+</head>
+
+<body>
+  <h2>留言板</h2>
+  <form id="postMessageForm">
+    <input type="text" name="name" placeholder="Name">
+    <input type="text" name="word" placeholder="Content">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Restet">
+
+      <div class="return"> <a href="index.html"> 返回</a></div>
+
+  </form>
+ 
+
+</body>
+
+</html>

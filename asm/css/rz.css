@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 宋体;
+	background: #7B76BB url( "../img/7.jpg") repeat-x left top;
+	height: 180px;
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+#header{
+	width: 80%;
+	height: 250px;
+    margin: 0 auto;
+}
+.son{
+    color: #D1C091;
+    margin-left: 0 auto;
+}
+#header #logo{  
+	color: gray;
+	font-size: 28px;
+	padding-top: 10px;
+	float: left;
+	margin-left: 50px;
+}
+
+ a{    
+	text-decoration: none;
+}
+a:link{
+	color: darkgray;
+}
+
+#logo a{
+	color: darkgray;
+}
+a:visited{
+	color: green;
+}
+/*
+.main{
+	width: 100%px;
+	height: auto;
+	margin-top: 20px;
+}
+*/
+.left img{
+    width: 400px;
+    height: 300px;
+}
+.reiai{
+    background-color: black;
+    color: white;
+    margin-left: 420px;
+    margin-top: -300px;
+}
+.wenan{
+    margin-left: 420px;
+    margin-top: 10px;
+    text-indent: 2em;
+    line-height: 2em;
+    font-size: 16px;
+}
+.shenhuo{
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+}
+.tu{
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.tu img{
+    border-radius: 20px;
+    color: #787878;
+    box-shadow: 2px 2px; 
+}
+#footer{
+	width: 100%;
+	height: 90px;
+	background: #787878;
+	margin-top: 8px;
+	float: left;
+	padding: 20px;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+
+#nav ul li a{
+	float: left;
+	margin-right: 28px;
+	font-size: 24px;
+	color: #D1C091;
+	width: 100px;
+}
+
+#nav{
+	width: 100%;
+	height: 40px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 300px;
+}
+#nav ul li a:hover{
+	text-decoration: underline;
+}
+
